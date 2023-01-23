@@ -3,6 +3,10 @@
     ElleHacks Website
 ***************************
 
+Updates As of 2023-01-23
+Updated by: Anusha Narraidoo
+fixed center alignment on landing page
+
 Updates As of 2023-01-19
 Updated by: Luana Ribeiro Madeira
 Fixed display issues with the contact us and location page

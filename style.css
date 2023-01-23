@@ -76,6 +76,11 @@ body, html{ height: 100%; line-height: 1.8;}
     color: #000000;
 }
 
+#home-block{
+    left: 50%;
+    transform: translate(-50%);
+}
+
 /*TAGLINE*/
 #tagline{
     font-size: 20px;
@@ -697,9 +702,9 @@ body, html{ height: 100%; line-height: 1.8;}
 
 /* ******************************************** */
 
-/* @Anusha home location/contact us container */
+/* Location/contact us section starts */
 
-/* @Anusha home location/contact us container */
+/* Location/contact us container */
 .contact#contactus {
     position: relative;
     width: 100%;
@@ -709,7 +714,7 @@ body, html{ height: 100%; line-height: 1.8;}
     height: 922px;
 }
 
-/* @Anusha location container */
+/* Location container */
 .container-fluid#location {
     position: relative;
     margin: 0 auto;
@@ -719,7 +724,7 @@ body, html{ height: 100%; line-height: 1.8;}
     height: 591px;
 }
 
-/* @Anusha location title */
+/* Location title */
 #location .location-title {
     position: absolute;
     height: 119.32px;
@@ -740,7 +745,7 @@ body, html{ height: 100%; line-height: 1.8;}
 
 }
 
-/* @Anusha date placement */
+/* Date placement */
 #location #date {
     position: absolute;
     width: 545px;
@@ -758,7 +763,7 @@ body, html{ height: 100%; line-height: 1.8;}
 svg{
     margin-left: 4%;
 }
-/* @Anusha Ellehacks event name */
+/* Ellehacks event name */
 #location #ellehacks {
     font-weight: 600;
     font-size: 40px;
@@ -766,7 +771,7 @@ svg{
     letter-spacing: 1.1px;
 }
 
-/* @Anusha event dates */
+/* Event dates */
 #location #dates {
     font-weight: 400;
     font-size: 35px;
@@ -774,7 +779,7 @@ svg{
     letter-spacing: 1.2px;
 }
 
-/* @Anusha logo icon at date info */
+/* Logo icon at date info */
 #location .logo {
     position: absolute;
     width: 95.27px;
@@ -784,13 +789,13 @@ svg{
 
 }
 
-/* @Anusha line separator */
+/* Line separator */
 #location line {
     stroke: rgb(0,0,0);
     stroke-width: 7;
 }
 
-/* @Anusha location placement */
+/* Location placement */
 #location #location-info {
     position: absolute;
     width: 612.51px;
@@ -803,7 +808,7 @@ svg{
     color: #000000;
 }
 
-/* @Anusha building location */
+/* Building location */
 #location #building {
     font-weight: 600;
     font-size: 35px;
@@ -812,7 +817,7 @@ svg{
     text-align: center;
 }
 
-/* @Anusha building address */
+/* Building address */
 #location #address {
     width: 437.67px;
     height: 61.54px;
@@ -825,7 +830,7 @@ svg{
     color: #000000;
 }
 
-/* @Anusha victor phillip db image */
+/* Victor phillip db image */
 #location #db {
     position: absolute;
     width: 365px;
@@ -838,7 +843,7 @@ svg{
     margin-left: 2%;
 }
 
-/* @Anusha google map image */
+/* Google map image */
 #location #map {
     box-sizing: border-box;
 
@@ -853,7 +858,7 @@ svg{
 #location a {
     text-decoration: none;
 }
-/* @Anusha contact us container */
+/* Contact us container */
 .container-fluid#contact-us {
     position: absolute;
     width: 100%;
@@ -862,7 +867,7 @@ svg{
     background: #8872AB;
 }
 
-/* @Anusha contact-us title */
+/* Contact-us title */
 #contact-us .contact-title {
     position: absolute;
     width: 800px;
@@ -880,7 +885,7 @@ svg{
     color: #FFFFFF;
 }
 
-/* @Anusha contact-us text line */
+/* Contact-us text line */
 #contact-us p {
     position: absolute;
     width: 684px;
@@ -895,9 +900,9 @@ svg{
     color: #FFFFFF;
 }
 
-/* @Anusha social media icons in contact-us */
+/* Social media icons in contact-us */
 
-/* @Anusha woman-writer image */
+/* Woman-writer image */
 #contact-us #woman-writer {
     position: absolute;
     width: 500px;
@@ -905,7 +910,7 @@ svg{
     right: 22px;
 }
 
-/* @Anusha rectangle stripe */
+/* Rectangle stripe */
 #contact-us canvas {
     position: absolute;
     right: 208px;
