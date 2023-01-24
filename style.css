@@ -1,102 +1,939 @@
-body {
-  background-image: url("https://cdn.glitch.global/8d47f899-99f5-4d62-8ed0-fa4415117624/img-back.png?v=1663969350895");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: right;
+/* body,h1,h2,h3,h4,h5,h6 {font-family: "DM Sans", sans-serif}
+
+body, html{ height: 100%; line-height: 1.8;}
+
+
+/* NAVIGATION */
+
+.navbar {
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 64px;
+    opacity: 0.8;
 }
 
-#back {
-  float: right;
-  width: 80%;
+.nav-img {
+    position: absolute;
+    width: 59px;
+    left: 17px;
+    top: 2px;
 }
 
-.websiteunderconstruction {
-  text-align: left;
-  vertical-align: text-top;
-  font-size: 44px;
-  font-family: DM Sans, sans-serif;
-  line-height: auto;
-  color: #000000;
-  left: 24px;
-  top: 302px;
-  position: absolute;
-}
-.websiteunderconstruction_const {
-  text-align: left;
-  vertical-align: text-top;
-  font-size: 42px;
-  font-family: DM Sans, sans-serif;
-  line-height: auto;
-  color: #000000;
-  left: 24px;
-  top: 350px;
-  position: absolute;
-}
-.subtitle {
-  text-align: left;
-  vertical-align: text-top;
-  font-size: 16px;
-  font-family: DM Sans, serif;
-  left: 24px;
-  top: 407px;
-  width: 226px;
-  height: 36px;
-  position: absolute;
-  line-height: auto;
-  color: #000000;
+.navbar-nav {
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 917px;
+    height: 32px;
+    right: 15px;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1.1px;
+    text-align: center;
 }
 
-.social_twit{
-  width: 31px;
-  height: 31px;
-  left: 224px;
-  top: 399px;
-  position: absolute;
-}
-.social{
-   width: 31px;
-  height: 31px;
-  left: 258px;
-  top: 399px;
-  position: absolute;
-}
-.contact {
-  text-align: left;
-  vertical-align: text-top;
-  font-size: 16px;
-  font-family: DM Sans, serif;
-  left: 24px;
-  top: 540px;
-  width: 409px;
-  height: 45px;
-  position: absolute;
-  line-height: auto;
+.nav-link {
+    color: #8872AB;
 }
 
-.contact_2 {
-  text-align: left;
-  vertical-align: text-top;
-  font-size: 16px;
-  font-family: DM Sans, serif;
-  left: 24px;
-  top: 560px;
-  width: 409px;
-  height: 45px;
-  position: absolute;
-  line-height: auto;
+.navbar .nav-link:active {
+    color: #000;
 }
 
-.imagecredit {
+.skyline{
+    position: absolute;
+    width: 100%;
+    height: 869px; 
+    background: #E5D5FF;
+}
+
+.outline{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    left: -0.15px;
+    top: 600px;
+    filter: invert();
+    mix-blend-mode: darken;
+}
+
+/* HEADING */
+.heading-ellehacks{
+    position:absolute;
+    width: 953px;
+    left: 25%;
+    top: 190px; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 145px;
+    letter-spacing: 1.1px;
+    word-spacing: normal;
+    text-align: center;
+    line-height: 80px; 
+    color: #000000;
+}
+
+#home-block{
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/*TAGLINE*/
+#tagline{
+    font-size: 20px;
+}
+
+#dateloc{
+    position: absolute;
+    width: 394px;
+    top: 320px;
+    left: 25%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+/* COUNTDOWN*/
+#countdown {
+    position: relative;
+    width: 290px;
+    height: 74px;
+    top: 45px;
+    left: 30%;
+    border-radius: 500px;
+    background-color: #8872AB;
+
+}
+
+#timer {
+    position: absolute;
+    left: 22px;
+    top: 10px;
+    width: 240px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+/* SOCIAL MEDIA ICONS */
+.social-icons{
+    width: 860px;
+    line-height: 120px;
+}
+
+.icon{
+    color: #000000;
+    text-decoration: none;
+    box-shadow: none;
+
+}
+
+/*ABOUT US SECTION*/
+.about-us{
+   
+    width: 100%;
+    height: 3052px; 
+    background: linear-gradient(#E5D5FF, white);
+}
+.heading-about-us{
+    
+    margin-top: 870px;
+    font-size: 78px;
+    text-align: center; 
+}
+
+.about-quote{
+
+    text-align: center;
+    color: #300c6b;
+    align-items:flex-start;
+}
+
+#girls-who{
+    display:inline;
+    font-size: 50px;
+   
+}
+
+#CODE{
+    display: inline; 
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    font-size: 50px;
+    color: #300c6b;
+    font-weight: 600;
+}
+#write-future{
+    display:inline; 
+    font-size: 50px;
+}
+
+#p3 {
+
+    margin: 10px;
+    padding: 50px;
+    font-style: normal;
+    border-bottom: solid white;
+    font-size: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+.meet-heading{
+    font-size: 78px;
+    text-align: center;
+}
+.team
+{
+    padding: 50px;
+    width: 100%;
+    margin: 0 auto;
+
+    font-family: 'DM Sans';
+    color:black;
+}
+
+.team-heading
+{
+
+    display: inline;
+    font-size: 85px;	
+    margin: 5px;
+    width: 50%;
+    text-align: left;
+    word-spacing: -0.1em;	
+    letter-spacing: -0.03em;
+}
+
+	
+.backslash-purple {	
+    color: #8872AB;	
+}
+
+/*flex properties*/
+.grid
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.co-chairs
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.executives
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.lms-exe
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 570px;
+    margin-left: 0px;
+}
+
+.IT-exe
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 570px;
+    margin-right: 0px;
+}
+
+.sponsor-exe
+{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team-member
+{
+    margin: 8px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    text-align: center;
+    
+}
+
+.team-member:hover
+{
+    box-shadow: 4px 4px 20px 0 rgb(0, 0, 0 , 40%), -4px -4px 20px 0 rgba(164, 145, 194, 80%);
+}
+
+
+/* Images */
+.image
+{
+    width: 150px;
+    height: 150px;
+}
+.team-img
+{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    /* border: solid #8872AB; */
+    border-bottom: solid 5px #8872AB;
+    
+}
+
+.team-img-fun
+{
+    display: none;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    /* border: solid #8872AB; */
+    border-bottom: solid 5px #8872AB;}
+
+.image:hover .team-img-fun
+{
+    display: inline;
+    margin: 1px;
+}
+.image:hover .team-img
+{
+    display: none;
+    margin: 1px;
+}
+
+
+
+/* Name and title */
+.team-name
+{
+    color: black;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.team-title
+{
+    color: black;
+    font-style: normal;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.team-member h4 {
+    display: block;
+    font-size: 16px;
+    margin-block-start: 1.33em;
+    /* margin-block-end: 1.33em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/*JOIN US*/
+.join-heading{
+    font-size: 78px;
+    text-align: center; 
+    
+}
+.register{
+    /* background-color: #8872AB; */
+    height: 1000px;
+    
+}
+.row{
+    text-align: center;
+    /* background-color: aqua; */
+}
+.Hacker{
+  
+    background-color:#F2EAFF;
+    opacity: 0.6;
+    height: 800px; 
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1)
+ -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+ transition: 0.3s;
+}
+.Hacker:hover{
+    background-color:#F2EAFF;
+    opacity: 1;
+    
+}
+.Mentor{    
+    background-color: #D6A3F4;
+    opacity: 0.6;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+.Mentor:hover{
+    background-color: #D6A3F4;
+    opacity: 1;
+    
+}
+
+.Volunteer{
+    background-color: #E5D5FF;
+    opacity: 0.6;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.Volunteer:hover{
+    background-color: #E5D5FF;
+    opacity: 1;
+}
+#h{
+    font-size: 30px;
+}
+
+.btn{
+
+    width: 281px;
+    height: 74px;
+    top:450px;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    border-radius: 16px;
+    border-color: #000000;    
+    font-family:'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 58px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+}
+.btn:hover{
+    background-color: purple; 
+    color: white; 
+
+}
+
+/* @Luana @Hasti
+  FAQ page
+*/
+
+.FAQ
+{
+
+  width: 100%;
+  margin: 0 auto;
+ 
+  position: relative;
+}
+
+/* @Luana 
+  big h1 in with "FAQ" written;
+*/
+
+#FAQ-section{
+  text-align: center;
+  background-color: #FFFFFF;
+  width: 100%;
+  
+}
+
+#FAQ-section h1{ 
+  display: inline;
+  font-size: 85px;
+  margin: 5px;
+  margin-left: 100px;
+  width: 50%;
   text-align: left;
-  vertical-align: text-top;
-  font-size: 12px;
-  font-family: DM Sans, serif;
-  left: 24px;
-  top: 580px;
-  width: 112px;
-  height: 16px;
-  position: absolute;
-  line-height: auto;
-  text-decoration: underline;
-  color: #9747ff;
+  word-spacing: -0.1em;
+  letter-spacing: -0.03em;
+  /* text-align: centr;
+  color: #9747FF; */
+  margin-bottom: 50px;
+  position: relative;
+}
+
+
+
+/* @Luana 
+  two sides of the faq
+*/
+#column-quest{
+  float: left;
+  width: 40%;
+  padding:0% 5%;
+  display: block;
+  position: relative;
+} 
+
+@media (max-width: 1000px) {
+
+  #column-quest {
+    float: left;
+    width: 100%;
+    padding:0% 5%;
+    display: block;
+    
+  } 
+}
+
+/* @Luana 
+  horizontal grey line
+*/
+.accordion-header hr{
+  border:  solid #8872AB 2px;
+  opacity: 0.5;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  transform: rotate(-0.46deg);
+}
+/* @Luana 
+  summary = questions from the faq
+  formating bellow
+*/
+.accordion-header {	  
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: black;
+  letter-spacing: -0.015em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  /* color: #9747FF; */
+  width: 100%;
+  display: block;
+  list-style: none;
+  transform: scaleX(-1);
+  position:relative;
+}
+
+.accordion-header p{
+  overflow: hidden;
+  transform: scaleX(-1);
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+/* @Luana 
+  details = ans from the faq
+  formating bellow
+*/
+#quest-box.container { 
+  box-shadow:0 0 20px #ffffff;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #8872AB;
+  opacity: 1;
+  margin-bottom: 20px;
+
+}
+ .collapsing p , .collapse.show p {
+  margin-left: 15px;
+ }
+
+ .collapse p a{	
+  color: #8872AB;
+}
+
+/* @Luana 
+  add + and - animation
+*/
+
+
+.accordion-header::before { 
+    content:"+"; 
+    color: #8872AB;
+    float: left;
+    font-size: 30px;
+    transform: scaleX(-1);    
+}
+.accordion-header[aria-expanded="true"]::before {
+    content:"-"; 
+    color: #8872AB;
+    float: left;
+    font-size: 30px;
+    transform: scaleX(-1);
+}
+/* FAQ section ends */
+/* ******************************************** */
+
+/* Sponsor section starts */
+#sponsors {
+    position: relative;
+    width: 100%;    
+    height: 2034px;
+    margin: 0 auto;
+    background: white;
+}
+
+.sponsors-title {
+    position: absolute;
+    width: 715px;
+    height: 110px;
+    left: 26px;
+    top: 13px;
+    padding-top:5%;
+    
+}
+
+.sponsors-title h1{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 64px;
+    color: #000000;
+}
+
+.sponsors-container {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    top: 120px;
+}
+
+.sponsors-container h3 {
+    position: inherit;
+    margin-top:100px;
+    
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 64px;
+    color: #8872AB;
+}
+
+.sponsors-list {
+    align-items: center;
+    margin: 16px 0;
+}
+
+.gold {
+    display: inline-block;
+    margin: 20 100px;
+}
+
+.gold img {
+    width: auto;
+    height: 250px;
+}
+
+#Scotiabank{
+    transform: scale(0.7);
+}
+.silver {
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.silver img {
+    width: auto;
+    height: 190px;
+}
+
+.bronze-sponsors h3 {
+    color: #8872AB;
+}
+
+.bronze {
+    display: inline-block;
+    margin: 3em 100px;
+}
+
+.bronze img {
+    width: auto;
+    height: 100px;
+}
+
+.community-sponsors h3 {
+    color:#8872AB;
+}
+
+.community {
+    display: inline-block;
+    margin: 0 100px;
+}
+
+.community img {
+    width: auto;
+    height: 70px;
+}
+/* Sponsor section ends */
+
+/* ******************************************** */
+
+/* Location/contact us section starts */
+
+/* Location/contact us container */
+.contact#contactus {
+    position: relative;
+    width: 100%;
+    top: 2000px;
+    border: 0;
+    margin: 0 auto;
+    height: 922px;
+}
+
+/* Location container */
+.container-fluid#location {
+    position: relative;
+    margin: 0 auto;
+    background: #E5D5FF;
+    top:0px;
+    width:100%;
+    height: 591px;
+}
+
+/* Location title */
+#location .location-title {
+    position: absolute;
+    height: 119.32px;
+    top: 13px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 109px;
+    letter-spacing: 1.1px;
+    text-align: center;
+    color: #000000;
+    mix-blend-mode: multiply;
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+/* Date placement */
+#location #date {
+    position: absolute;
+    width: 545px;
+    height: 170.71px;
+    left: 30px;
+    top: 100px;
+    font-style: normal;
+    padding-left: 100px;
+    color: #000000;
+    float: right;
+    margin-right: 50px;
+    margin-left: 5%;
+  
+}
+svg{
+    margin-left: 4%;
+}
+/* Ellehacks event name */
+#location #ellehacks {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.8;
+    letter-spacing: 1.1px;
+}
+
+/* Event dates */
+#location #dates {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+}
+
+/* Logo icon at date info */
+#location .logo {
+    position: absolute;
+    width: 95.27px;
+    height: 91.95px;
+    left: -10px;
+    top: 67.48px;
+
+}
+
+/* Line separator */
+#location line {
+    stroke: rgb(0,0,0);
+    stroke-width: 7;
+}
+
+/* Location placement */
+#location #location-info {
+    position: absolute;
+    width: 612.51px;
+    height: 146.76px;
+    top: 338px;
+    left: -29px;
+    margin-left: 5%;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+}
+
+/* Building location */
+#location #building {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 1.1px;
+    text-align: center;
+}
+
+/* Building address */
+#location #address {
+    width: 437.67px;
+    height: 61.54px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    margin-left: 10%;
+    color: #000000;
+}
+
+/* Victor phillip db image */
+#location #db {
+    position: absolute;
+    width: 365px;
+    height: 326px;
+    left:40%;
+    top: 158px;
+    border: 6px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+/* Google map image */
+#location #map {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 470px;
+    height: 321px;
+    right: 1%;
+    top: 163px;
+
+    border: 5px solid #000000;
+}
+#location a {
+    text-decoration: none;
+}
+/* Contact us container */
+.container-fluid#contact-us {
+    position: absolute;
+    width: 100%;
+    height: 331px;
+    top: 2590px;
+    background: #8872AB;
+}
+
+/* Contact-us title */
+#contact-us .contact-title {
+    position: absolute;
+    width: 800px;
+    height: 90.2px;
+    left: -25px;
+    top: 6px;
+    display: block;
+    margin-left: 1%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 109px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* Contact-us text line */
+#contact-us p {
+    position: absolute;
+    width: 684px;
+    height: 25px;
+    left: 10px;
+    top: 136px;
+    margin-left: 1%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+/* Social media icons in contact-us */
+
+/* Woman-writer image */
+#contact-us #woman-writer {
+    position: absolute;
+    width: 500px;
+    height: 100%;
+    right: 22px;
+}
+
+/* Rectangle stripe */
+#contact-us canvas {
+    position: absolute;
+    right: 208px;
+    background: rgba(255, 255, 255, 0.24);
+    mix-blend-mode: hard-light;
+}
+
+#icon{
+    position: absolute;
+    top: 200px;
+    width: 50%;
+    left:-0.2%;
+   
+}   
+#icon a svg{
+    color: #FFFFFF;
+}
+
+
+.mlh{
+    margin-right: 90px;
+    padding-right: 50px;   
 }
