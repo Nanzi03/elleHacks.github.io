@@ -571,7 +571,7 @@ body, html{ height: 100%; line-height: 1.8;}
   margin-left: 15px;
  }
 
- .collapse p a{	
+ .collapse p {	
   color: #8872AB;
 }
 
@@ -601,7 +601,7 @@ body, html{ height: 100%; line-height: 1.8;}
 #sponsors {
     position: relative;
     width: 100%;    
-    height: 2034px;
+    height: 2184px;
     margin: 0 auto;
     background: white;
 }
@@ -671,7 +671,7 @@ body, html{ height: 100%; line-height: 1.8;}
 
 .silver img {
     width: auto;
-    height: 190px;
+    height: 200px;
 }
 
 .bronze-sponsors h3 {
@@ -685,7 +685,7 @@ body, html{ height: 100%; line-height: 1.8;}
 
 .bronze img {
     width: auto;
-    height: 100px;
+    height: 120px;
 }
 
 .community-sponsors h3 {
@@ -699,8 +699,14 @@ body, html{ height: 100%; line-height: 1.8;}
 
 .community img {
     width: auto;
-    height: 70px;
+    height: 100px;
 }
+
+#jet{
+    transform: scale(1.3);
+}
+
+
 /* Sponsor section ends */
 
 /* ******************************************** */
@@ -711,10 +717,10 @@ body, html{ height: 100%; line-height: 1.8;}
 .contact#contactus {
     position: relative;
     width: 100%;
-    top: 2000px;
+    top: 2100px;
     border: 0;
     margin: 0 auto;
-    height: 922px;
+    height: 522px;
 }
 
 /* Location container */
