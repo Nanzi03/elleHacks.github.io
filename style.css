@@ -467,7 +467,6 @@ body, html{ height: 100%; line-height: 1.8;}
 
 #FAQ-section{
   text-align: center;
-  background-color: #FFFFFF;
   width: 100%;
   
 }
@@ -541,6 +540,7 @@ body, html{ height: 100%; line-height: 1.8;}
   list-style: none;
   transform: scaleX(-1);
   position:relative;
+  text-align: left;
 }
 
 .accordion-header p{
@@ -569,10 +569,13 @@ body, html{ height: 100%; line-height: 1.8;}
 }
  .collapsing p , .collapse.show p {
   margin-left: 15px;
+  text-align: left;
+  color: #8872AB;
  }
 
  .collapse p {	
   color: #8872AB;
+  text-align: left;
 }
 
 /* @Luana 
