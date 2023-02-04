@@ -182,6 +182,10 @@ body, html{ height: 100%; line-height: 1.8;}
     font-size: 50px;
 }
 
+.carousel-inner{
+    transform: scale(0.7);
+}
+
 #p3 {
 
     margin: 10px;
