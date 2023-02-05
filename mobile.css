@@ -1,0 +1,16 @@
+body {
+   zoom: 35%; 
+  }
+
+.skyline{
+    position: relative;
+    height: 869px;
+}
+.heading-about-us{   
+    margin-top: 1px;
+    font-size: 78px;
+    text-align: center; 
+}
+.about-us{
+    height: 3052px; 
+}
