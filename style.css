@@ -4,11 +4,16 @@ body, html{ height: 100%; line-height: 1.8;}
 
 
 /* NAVIGATION */
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 
+}
 .navbar {
     position: fixed;
     background-color: #FFFFFF;
-    width: 100%;
+    width: 99vw;
     height: 64px;
     opacity: 0.8;
 }
@@ -55,7 +60,7 @@ body, html{ height: 100%; line-height: 1.8;}
     width: 100%;
     height: 30%;
     left: -0.15px;
-    top: 600px;
+    top: 625px;
     filter: invert();
     mix-blend-mode: darken;
 }
@@ -113,8 +118,8 @@ body, html{ height: 100%; line-height: 1.8;}
     width: 290px;
     height: 74px;
     top: 45px;
-    left: 50%;
-    transform: translate(-50%);
+    /* left: 30%; */
+    margin: 0 auto;
     border-radius: 500px;
     background-color: #8872AB;
 
@@ -143,6 +148,7 @@ body, html{ height: 100%; line-height: 1.8;}
 .social-icons{
     width: 100%;
     line-height: 120px;
+    margin: 0 auto;
 }
 
 .icon{
@@ -154,11 +160,16 @@ body, html{ height: 100%; line-height: 1.8;}
 
 /*ABOUT US SECTION*/
 .about-us{
-   
+   padding-top: 50px;
     width: 100%;
-    height: 3052px; 
+    /* height: 2250px;  */
+    /* background: linear-gradient(#E5D5FF, white); */
+}
+
+.background{
     background: linear-gradient(#E5D5FF, white);
 }
+
 .heading-about-us{
     
     margin-top: 870px;
@@ -379,14 +390,19 @@ body, html{ height: 100%; line-height: 1.8;}
     font-weight: bold;
 }
 /*JOIN US*/
+
 .join-heading{
     font-size: 78px;
     text-align: center; 
+    padding-top: 50px;
+    margin-bottom: 50px;
+    border-top: solid #8872AB;
     
 }
 .register{
     /* background-color: #8872AB; */
-    height: 1000px;
+    height: 1000px;padding: 50px;
+
     
 }
 .row{
@@ -481,14 +497,15 @@ body, html{ height: 100%; line-height: 1.8;}
 #FAQ-section{
   text-align: center;
   width: 100%;
-  
+  padding-top: 150px;
+  padding-bottom: 50px;
 }
 
 #FAQ-section h1{ 
   display: inline;
   font-size: 85px;
   margin: 5px;
-  margin-left: 100px;
+  /* margin-left: 100px; */
   width: 50%;
   text-align: left;
   word-spacing: -0.1em;
@@ -751,9 +768,10 @@ body, html{ height: 100%; line-height: 1.8;}
 
 /* Location title */
 #location .location-title {
-    position: absolute;
+    /* position: absolute; */
     height: 119.32px;
-    top: 13px;
+    /* top: 13px; */
+    margin-top: 50px;
 
     font-style: normal;
     font-weight: 600;
@@ -770,48 +788,84 @@ body, html{ height: 100%; line-height: 1.8;}
 
 }
 
+.date-text{
+    padding: 5px;
+    border:solid black;
+    max-width: 600px;
+    height: 350px;
+}
+
 /* Date placement */
 #location #date {
-    position: absolute;
-    width: 545px;
-    height: 170.71px;
-    left: 30px;
-    top: 100px;
+    /* position: absolute; */
+    /* width: 465px;
+    height: 170.71px; */
+    /* left: 30px;
+    top: 100px; */
     font-style: normal;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     color: #000000;
-    float: right;
-    margin-right: 50px;
-    margin-left: 5%;
+   
+    /* margin-right: 50px;
+    margin-left: 5%; */
+    margin: 0 auto;
+    border-bottom: solid black;
   
 }
+
+#location .img-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
 svg{
     margin-left: 4%;
 }
 /* Ellehacks event name */
 #location #ellehacks {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     font-weight: 600;
     font-size: 40px;
     line-height: 1.8;
     letter-spacing: 1.1px;
+    margin:0 auto;
+    text-align: center;
 }
 
 /* Event dates */
 #location #dates {
     font-weight: 400;
-    font-size: 35px;
+    /* font-size: 2.7vw; */
+    font-size: 30px;
     line-height: 1.2;
     letter-spacing: 1.2px;
+    margin: 0 auto;
+    
+}
+
+#location .right{
+    margin-right: 50px;
+    padding-top: 30px;
 }
 
 /* Logo icon at date info */
 #location .logo {
-    position: absolute;
+    /* position: absolute; */
     width: 95.27px;
     height: 91.95px;
-    left: -10px;
-    top: 67.48px;
+    /* left: -10px;
+    top: 67.48px; */
+    margin: 0 auto;
 
+}
+
+#location .left{
+    margin-left: 60px;
 }
 
 /* Line separator */
@@ -827,7 +881,8 @@ svg{
     height: 146.76px;
     top: 338px;
     left: -29px;
-    margin-left: 5%;
+    /* margin-left: 5%; */
+    margin-left: 30px;
     font-style: normal;
     text-align: center;
     color: #000000;
@@ -835,11 +890,17 @@ svg{
 
 /* Building location */
 #location #building {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: max-content;
     font-weight: 600;
-    font-size: 35px;
+    /* font-size: 2.7vw; */
+    font-size: 30px;
     line-height: 42px;
     letter-spacing: 1.1px;
     text-align: center;
+    margin: 0 auto;
 }
 
 /* Building address */
@@ -847,19 +908,25 @@ svg{
     width: 437.67px;
     height: 61.54px;
     font-weight: 400;
-    font-size: 26px;
+    /* font-size: 2.2vw; */
+    font-size: 30px;
     line-height: 31px;
     letter-spacing: 1.2px;
     text-align: center;
     margin-left: 10%;
     color: #000000;
+    margin: 0 auto;
 }
 
 /* Victor phillip db image */
 #location #db {
     position: absolute;
-    width: 365px;
-    height: 326px;
+    /* width: 365px;
+    height: 326px; */
+    width: 10px;
+    height: 20px;
+
+
     left:40%;
     top: 158px;
     border: 6px solid #000000;
@@ -873,8 +940,10 @@ svg{
     box-sizing: border-box;
 
     position: absolute;
-    width: 470px;
-    height: 321px;
+    /* width: 470px;
+    height: 321px; */
+    height: 20px;
+    width: 10px;
     right: 1%;
     top: 163px;
 
@@ -891,6 +960,18 @@ svg{
     top: 2590px;
     background: #8872AB;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Contact-us title */
 #contact-us .contact-title {
