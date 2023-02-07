@@ -41,45 +41,43 @@ body {
     background-color: #F2EAFF;
     border-radius: 100px;
     width: 30%;
-    height: 70%;
-    margin-top: 20%;
-    margin-left: 4%;
+    height: 100%;
+    margin-top: 30%;
+    margin-left: 3%;
     opacity: 0.6;
     transition: 0.3s;
-    box-shadow: rgba(229, 213, 255, 1) -10px -10px,
-            rgba(214, 163, 244, 1) -20px 0px;
+    box-shadow: rgba(214, 163, 244, 1) -10px -10px,
+                rgba(229, 213, 255, 1) -20px 0px;
 }
 
 .Mentor{
     background-color: #D6A3F4;
     border-radius: 100px;
     width: 30%;
-    height: 80%;
-    margin: 5% 1%;
+    height: 100%;
+    margin: 5% 3% 5% 1%;
     opacity: 0.6;
     transition: 0.3s;
-    box-shadow: rgba(255, 255, 255, 1) 0px -10px,
-                rgba(229, 213, 255, 1) 0px -20px,
-                rgba(255, 255, 255, 1) 0px 10px,
-                rgba(229, 213, 255, 1) 0px 20px;
+    box-shadow: rgba(229, 213, 255, 1) 10px 10px,
+                rgba(242, 234, 255, 1) 20px 0px;
 }
 
 .Volunteer{
     background-color: #E5D5FF;
     border-radius: 100px;
     width: 30%;
-
-    margin-top: 20%;
+    height: 100%;
+    margin-top: 30%;
     opacity: 0.6;
     transition: 0.3s;
     box-shadow: rgba(242, 234, 255, 1) 10px -10px,
-        rgba(214, 163, 244, 1) 20px 0px;
+                rgba(214, 163, 244, 1) 20px 0px;
 }
 
 .btn{
     width: 95%;
     font-size: 30px;
-    margin: 0% 1% 15%;
+    margin: 0% 1% 20%;
 }
 
 /* End of JOIN-US section*/
