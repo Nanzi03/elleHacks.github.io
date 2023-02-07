@@ -8,6 +8,7 @@ body{
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    background-color: #E5D5FF;
 
 }
 .navbar {
@@ -160,7 +161,7 @@ body{
 
 /*ABOUT US SECTION*/
 .about-us{
-   padding-top: 50px;
+   padding-top: 70px;
     width: 100%;
     /* height: 2250px;  */
     /* background: linear-gradient(#E5D5FF, white); */
@@ -209,7 +210,7 @@ body{
 
 #p3 {
 
-    margin: 10px;
+    /* margin: 10px; */
     padding: 50px;
     font-style: normal;
     border-bottom: solid white;
@@ -227,7 +228,7 @@ body{
     padding: 50px;
     width: 100%;
     margin: 0 auto;
-
+    background-color: white;
     font-family: 'DM Sans';
     color:black;
 }
@@ -402,8 +403,7 @@ body{
 .register{
     /* background-color: #8872AB; */
     height: 1000px;padding: 50px;
-
-    
+    background-color: white;
 }
 .row{
     text-align: center;
@@ -486,7 +486,7 @@ body{
 
   width: 100%;
   margin: 0 auto;
- 
+  background-color: white;
   position: relative;
 }
 
@@ -497,8 +497,8 @@ body{
 #FAQ-section{
   text-align: center;
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 
 #FAQ-section h1{ 
@@ -527,6 +527,7 @@ body{
   padding:0% 5%;
   display: block;
   position: relative;
+  margin-bottom: 80px;
 } 
 
 @media (max-width: 1000px) {
@@ -637,6 +638,7 @@ body{
     height: 2184px;
     margin: 0 auto;
     background: white;
+    padding-top: 1px;
 }
 
 .sponsors-title {
@@ -790,7 +792,7 @@ body{
 
 .date-text{
     padding: 5px;
-    border:solid black;
+    /* border:solid black; */
     max-width: 600px;
     height: 350px;
 }
@@ -957,7 +959,7 @@ svg{
     position: absolute;
     width: 100%;
     height: 331px;
-    top: 2590px;
+    top: 550px;
     background: #8872AB;
 }
 
