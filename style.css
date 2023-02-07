@@ -94,8 +94,8 @@ body, html{ height: 100%; line-height: 1.8;}
     position: absolute;
     width: 394px;
     top: 320px;
-    left: 25%;
-
+    left: 50%;
+    transform: translate(-50%);
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -113,7 +113,8 @@ body, html{ height: 100%; line-height: 1.8;}
     width: 290px;
     height: 74px;
     top: 45px;
-    left: 30%;
+    left: 50%;
+    transform: translate(-50%);
     border-radius: 500px;
     background-color: #8872AB;
 
@@ -140,7 +141,7 @@ body, html{ height: 100%; line-height: 1.8;}
 
 /* SOCIAL MEDIA ICONS */
 .social-icons{
-    width: 860px;
+    width: 100%;
     line-height: 120px;
 }
 
@@ -396,7 +397,7 @@ body, html{ height: 100%; line-height: 1.8;}
   
     background-color:#F2EAFF;
     opacity: 0.6;
-    height: 800px; 
+    height: 800px;
     box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1)
  -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
  transition: 0.3s;
@@ -427,12 +428,17 @@ body, html{ height: 100%; line-height: 1.8;}
     background-color: #E5D5FF;
     opacity: 1;
 }
+
+.register #name{
+    font-size: 30px;
+    font-weight: 600;
+}
+
 #h{
     font-size: 30px;
 }
 
 .btn{
-
     width: 281px;
     height: 74px;
     top:450px;

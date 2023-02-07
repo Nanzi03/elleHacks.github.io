@@ -2,6 +2,10 @@
         Update Log
     ElleHacks Website
 ***************************
+Updates As of 2023-01-23
+Updated by: Anusha Narraidoo
+Fixed mobile Join-Us based on new figma mobile design
+Added Hacker/Mentor/Volunteer names to both web and mobile versions
 
 Updates As of 2023-01-23
 Updated by: Anusha Narraidoo
