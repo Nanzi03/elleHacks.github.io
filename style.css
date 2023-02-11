@@ -712,9 +712,8 @@ body{
 }
 
 #RBC{
-    transform: scale(0.6);
-    margin-left: -30px;
-    margin-right: -30px;
+    transform: scale(1.45);
+    margin-top: 50px;
 }
 
 #BMO{
