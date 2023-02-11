@@ -9,6 +9,11 @@ body{
     margin: 0;
     overflow-x: hidden;
     background-color: #E5D5FF;
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
 
 }
 .navbar {
@@ -891,7 +896,9 @@ svg{
     /* left: -10px;
     top: 67.48px; */
     margin: 0 auto;
-
+}
+#location .left{
+    margin-left: 60px;
 }
 
 #location .left{
