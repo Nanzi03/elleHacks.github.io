@@ -690,7 +690,7 @@ body{
 
 .gold {
     display: inline-block;
-    margin: 20 100px;
+    margin: 20px -80px;
 }
 
 .gold img {
@@ -699,11 +699,37 @@ body{
 }
 
 #Scotiabank{
-    transform: scale(0.7);
+    transform: scale(0.5);
 }
+#Scotiabank-org{
+    transform: scale(0.6);
+    margin-right: -140px;
+    margin-left: -40px;
+}
+#AutoCode{
+    transform: scale(0.6);
+    margin-left: -200px;
+}
+
+#RBC{
+    transform: scale(0.6);
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+#BMO{
+    margin-left: -20px;
+    margin-right: 50px;
+}
+#cse{
+    margin-left: -20px;
+    margin-right: 50px;
+}
+
 .silver {
     display: inline-block;
     margin: 0 100px;
+    transform: scale(0.9);
 }
 
 .silver img {
@@ -717,7 +743,7 @@ body{
 
 .bronze {
     display: inline-block;
-    margin: 3em 100px;
+    margin: 3em 10px;
 }
 
 .bronze img {
