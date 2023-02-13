@@ -485,6 +485,27 @@ body{
 
 }
 
+.schedule-heading{
+    font-size: 78px;
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    border-top: solid #8872AB;
+
+}
+
+.schedule-block .col-sm{
+    border:  solid 5px;
+    margin: 2%;
+
+    /*box-shadow: rgb(255, 255, 255) 5px 5px, rgb(255, 255, 255) -5px -5px;*/
+}
+
+.schedule-block #time{
+    font-size: 80%;
+    text-align: left;
+}
+
 /* @Luana @Hasti
   FAQ page
 */
@@ -783,27 +804,24 @@ body{
 /* Location/contact us section starts */
 
 /* Location/contact us container */
-.contact#contactus {
+.location{
     position: relative;
     width: 100%;
-    top: 0px;
     border: 0;
     margin: 0 auto;
     height: 522px;
 }
 
 /* Location container */
-.container-fluid#location {
+.location-container-fluid#location-block {
     position: relative;
     margin: 0 auto;
     background: #E5D5FF;
-    top:0px;
     width:100%;
-    height: 591px;
 }
 
 /* Location title */
-#location .location-title {
+.location .location-title {
     /* position: absolute; */
     height: 119.32px;
     /* top: 13px; */
@@ -812,7 +830,7 @@ body{
 
     font-style: normal;
     font-weight: 600;
-    font-size: 70px;
+    font-size: 5vw;
     line-height: 109px;
     letter-spacing: 1.1px;
     text-align: center;
@@ -833,7 +851,7 @@ body{
 }
 
 /* Date placement */
-#location #date {
+.location #date {
     /* position: absolute; */
     /* width: 465px;
     height: 170.71px; */
@@ -850,7 +868,7 @@ body{
   
 }
 
-#location .img-text{
+.location .img-text{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -862,7 +880,7 @@ svg{
     margin-left: 4%;
 }
 /* Ellehacks event name */
-#location #ellehacks {
+.location #ellehacks {
     display: block;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -875,7 +893,7 @@ svg{
 }
 
 /* Event dates */
-#location #dates {
+.location #dates {
     font-weight: 400;
     /* font-size: 2.7vw; */
     font-size: 30px;
@@ -885,13 +903,13 @@ svg{
     
 }
 
-#location .right{
+.location .right{
     margin-right: 50px;
     padding-top: 30px;
 }
 
 /* Logo icon at date info */
-#location .logo {
+.location .logo {
     /* position: absolute; */
     width: 95.27px;
     height: 91.95px;
@@ -899,22 +917,22 @@ svg{
     top: 67.48px; */
     margin: 0 auto;
 }
-#location .left{
+.location .left{
     margin-left: 60px;
 }
 
-#location .left{
+.location .left{
     margin-left: 60px;
 }
 
 /* Line separator */
-#location line {
+.location line {
     stroke: rgb(0,0,0);
     stroke-width: 7;
 }
 
 /* Location placement */
-#location #location-info {
+.location #location-info {
     position: absolute;
     width: 612.51px;
     height: 146.76px;
@@ -928,7 +946,7 @@ svg{
 }
 
 /* Building location */
-#location #building {
+.location #building {
     display: block;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
@@ -943,7 +961,7 @@ svg{
 }
 
 /* Building address */
-#location #address {
+.location #address {
     width: 437.67px;
     height: 61.54px;
     font-weight: 400;
@@ -958,7 +976,7 @@ svg{
 }
 
 /* Victor phillip db image */
-#location #db {
+.location #db {
     /* position: absolute; */
     /* width: 365px;
     height: 326px; */
@@ -975,7 +993,7 @@ svg{
 }
 
 /* Google map image */
-#location #map {
+.location #map {
     box-sizing: border-box;
 
     /* position: absolute; */
@@ -990,32 +1008,21 @@ svg{
     float: left ;
     border: 5px solid #000000;
 }
-#location a {
+.location a {
     text-decoration: none;
 }
+
+
+
 /* Contact us container */
-.container-fluid#contact-us {
-    position: absolute;
+.contact-us {
+    position: relative;
     width: 100%;
     height: 331px;
-    top: 550px;
     background: #8872AB;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Contact-us title */
-#contact-us .contact-title {
+.contact-us .contact-title {
     position: absolute;
     width: 800px;
     height: 90.2px;
@@ -1033,7 +1040,7 @@ svg{
 }
 
 /* Contact-us text line */
-#contact-us p {
+.contact-us p {
     position: absolute;
     width: 684px;
     height: 25px;
@@ -1050,29 +1057,29 @@ svg{
 /* Social media icons in contact-us */
 
 /* Woman-writer image */
-#contact-us #woman-writer {
+.contact-us #woman-writer {
     position: absolute;
-    width: 500px;
+    width: 35%;
     height: 100%;
-    right: 22px;
+    right: 1.5%;
 }
 
 /* Rectangle stripe */
-#contact-us canvas {
+.contact-us canvas {
     position: absolute;
-    right: 208px;
+    right: 14%;
     background: rgba(255, 255, 255, 0.24);
     mix-blend-mode: hard-light;
 }
 
-#icon{
+.contact-us #icon{
     position: absolute;
     top: 200px;
     width: 50%;
     left:-0.2%;
    
 }   
-#icon a svg{
+.contact-us #icon a svg{
     color: #FFFFFF;
 }
 
