@@ -498,18 +498,24 @@ a {
 
 .schedule-block .col-sm {
     border: solid 5px;
-    margin: 2%;
-    /*box-shadow: rgb(255, 255, 255) 5px 5px, rgb(255, 255, 255) -5px -5px;*/
+    /*margin: 1%;*/
 }
-
-.schedule-block #day {
+.schedule-block .day {
     font-size: 150%;
     font-weight: 900;
 }
-
+/*
 .schedule-block #time {
     font-size: 130%;
     text-align: left;
+}*/
+
+.schedule-block tr{
+    text-align: left;
+}
+
+table, th, td {
+  border: 1px solid #E5D5FF;
 }
 
 @media (min-width: 1041px) {
