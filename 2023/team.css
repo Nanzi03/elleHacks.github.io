@@ -1,5 +1,4 @@
-.team
-{
+.team {
     /* width: 98%; */
     /* margin: 0 auto; */
     padding: 10px;
@@ -7,11 +6,14 @@
     background-color: #F2EAFF;
     /* border-radius: 9px; */
     font-family: 'DM Sans';
-    color:black;
+    color: black;
 }
 
-.team-heading
-{
+a {
+    text-decoration: none;
+}
+
+.team-heading {
     display: inline;
     font-size: 85px;
     margin: 5px;
@@ -25,15 +27,15 @@
     color: #8872AB;
 }
 
+
 /*flex properties*/
-.grid
-{
+
+.grid {
     display: flex;
     margin: 0 auto;
 }
 
-.co-chairs
-{
+.co-chairs {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -42,14 +44,12 @@
     margin-bottom: 40px;
 }
 
-.executives  
-{
+.executives {
     display: flex;
     margin: 0 auto;
 }
 
-.lms-exe
-{
+.lms-exe {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -57,8 +57,7 @@
     margin-left: 0px;
 }
 
-.IT-exe
-{
+.IT-exe {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -66,8 +65,7 @@
     margin-right: 0px;
 }
 
-.sponsor-exe
-{
+.sponsor-exe {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -75,8 +73,7 @@
     margin: 0 auto;
 }
 
-.team-member
-{
+.team-member {
     margin: 8px;
     border-radius: 10px;
     padding: 5px;
@@ -88,22 +85,22 @@
     transition-delay: 0s;
     transition-property: all;
     text-align: center;
+    text-decoration: none;
 }
 
-.team-member:hover
-{
+.team-member:hover {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 
 
 /* image */
-.image
-{
+
+.image {
     width: 150px;
     height: 150px;
 }
-.team-img
-{
+
+.team-img {
     display: block;
     margin: 0 auto;
     width: 150px;
@@ -111,8 +108,7 @@
     border-radius: 100%;
 }
 
-.team-img-fun
-{
+.team-img-fun {
     display: none;
     margin: 0 auto;
     width: 150px;
@@ -120,35 +116,37 @@
     border-radius: 100%;
 }
 
-.image:hover .team-img-fun
-{
+.image:hover .team-img-fun {
     display: inline;
     margin: 1px;
 }
-.image:hover .team-img
-{
+
+.image:hover .team-img {
     display: none;
     margin: 1px;
 }
 
 
-
 /* name and title */
-.team-name
-{
+
+.team-member a {
+    text-decoration: none;
+}
+
+.team-name {
     color: black;
     font-style: normal;
     text-align: center;
     margin-bottom: 0;
-
+    /* text-decoration: none; */
 }
 
-.team-title
-{
+.team-title {
     color: black;
     font-style: normal;
     text-align: center;
     margin-top: 4px;
+    /* text-decoration: none; */
 }
 
 h4 {
@@ -160,4 +158,3 @@ h4 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-

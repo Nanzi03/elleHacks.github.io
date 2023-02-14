@@ -1,4 +1,3 @@
-
 /* ************************************ */
 /* <!--@Anusha Landing Page section --> */
 
@@ -8,9 +7,8 @@ var countDownDate = new Date("Feb 17, 2023 00:00:00").getTime();
 /* @Anusha
  * function updating countdown every second until ElleHacks starts and indicates
  * if event has started and/or ended
-**/
-var x = setInterval(function() {
-
+ **/
+var x = setInterval(function () {
   var currentDate = new Date().getTime(); // Get current date and convert into sec
   var timeLeft = countDownDate - currentDate; // Find the time left until countDownDate
 
@@ -21,10 +19,23 @@ var x = setInterval(function() {
   var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
   // Display the countdown in <p> "timer" element
-  document.getElementById("timer").innerHTML = days + ":"
-            + hours.toLocaleString('en-CA', {minimumIntegerDigits: 2, useGrouping:false}) + ":"
-            + minutes.toLocaleString('en-CA', {minimumIntegerDigits: 2, useGrouping:false}) + ":"
-            + seconds.toLocaleString('en-CA', {minimumIntegerDigits: 2, useGrouping:false});
+  document.getElementById("timer").innerHTML =
+    days +
+    ":" +
+    hours.toLocaleString("en-CA", {
+      minimumIntegerDigits: 2,
+      useGrouping: false,
+    }) +
+    ":" +
+    minutes.toLocaleString("en-CA", {
+      minimumIntegerDigits: 2,
+      useGrouping: false,
+    }) +
+    ":" +
+    seconds.toLocaleString("en-CA", {
+      minimumIntegerDigits: 2,
+      useGrouping: false,
+    });
 
   // Display when time is up
   if (timeLeft < 0) {
@@ -34,18 +45,18 @@ var x = setInterval(function() {
     timeLeft = countDownDate - currentDate;
     // When event started but not ended yet
     if (timeLeft > 0) {
-    //        var display = document.getElementById("timer").innerHTML = "Event Started!!";
-        document.getElementById("timer").innerHTML =
-        "<span style='font-size:30px;vertical-align: middle;text-align: center; color:#000'>"
-        + "Event Started!!"
-        + "</span>";
+      //        var display = document.getElementById("timer").innerHTML = "Event Started!!";
+      document.getElementById("timer").innerHTML =
+        "<span style='font-size:30px;vertical-align: middle;text-align: center; color:#000'>" +
+        "Event Started!!" +
+        "</span>";
 
-    // When event ended
+      // When event ended
     } else {
-        document.getElementById("timer").innerHTML =
-                "<span style='font-size:30px;vertical-align: middle;text-align: center; color:#000'>"
-                + "Event Ended :/"
-                + "</span>";
+      document.getElementById("timer").innerHTML =
+        "<span style='font-size:30px;vertical-align: middle;text-align: center; color:#000'>" +
+        "Event Ended :/" +
+        "</span>";
     }
   }
 }, 1000);
@@ -53,9 +64,4 @@ var x = setInterval(function() {
 /* <!--@Anusha Landing page section end here--> */
 /* ******************************************** */
 
-$('#myCarousel').on('slide.bs.carousel', function () {
-  
-  
-
-})
-
+$("#myCarousel").on("slide.bs.carousel", function () {});
