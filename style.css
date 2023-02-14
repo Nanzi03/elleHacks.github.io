@@ -329,6 +329,10 @@ a {
 
 /* Images */
 
+a {
+    text-decoration: none;
+}
+
 .image {
     width: 150px;
     height: 150px;
