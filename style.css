@@ -774,18 +774,26 @@ table, th, td {
 #Scotiabank {
     transform: scale(0.5);
 }
+.pad{
+    padding: 25px;
+}
 
 #Scotiabank-org {
-    transform: scale(0.6);
-    margin-right: 60px;
-    margin-left: -40px;
+    transform: scale(0.7);
+  
+    /* margin-right: -400px;  */
+    /* margin-left: -40px; */
 }
 
 #AutoCode {
-    transform: scale(0.6);
-    margin-left: -200px;
+    transform: scale(0.5);
+    /* margin-left: -600px; */
 }
 
+#Lassonde{
+    transform: scale(0.4);
+    /* margin-left: -500px;  */
+}
 #RBC {
     transform: scale(1.45);
     margin-top: 50px;
@@ -799,6 +807,11 @@ table, th, td {
 #cse {
     margin-left: -20px;
     margin-right: 50px;
+}
+
+#echo{
+    transform: scale(0.5); 
+    margin-left: -100px; 
 }
 
 .silver {
