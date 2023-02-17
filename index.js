@@ -3,7 +3,7 @@
 /* <!--@Anusha Landing Page section --> */
 
 // Set the date we are counting down to and convert into sec
-var countDownDate = new Date("Feb 17, 2023 00:00:00").getTime();
+var countDownDate = new Date("Feb 17, 2023 17:30:00").getTime();
 
 /* @Anusha
  * function updating countdown every second until ElleHacks starts and indicates
