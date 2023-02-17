@@ -496,6 +496,7 @@ a {
 .schedule-block .col-sm {
     border: solid 5px;
     margin: 0.3%;
+    padding: 0.3%;
 }
 .schedule-block .day {
     font-size: 150%;
@@ -512,7 +513,9 @@ a {
 }
 
 table, th, td {
-  border: 1px solid #E5D5FF;
+    /*border: 1px solid #E5D5FF;*/
+    /*border: 1px solid #D6C0FA;*/
+    border: 1px solid #E9E1F5;
 }
 
 @media (min-width: 1041px) {
