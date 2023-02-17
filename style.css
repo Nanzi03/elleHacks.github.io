@@ -3,8 +3,8 @@
 body, html{ height: 100%; line-height: 1.8;}
 
 
-/* NAVIGATION */
-
+/* ***************************************************************** */
+/* NAVIGATION section starts here*/
 body {
     padding: 0;
     margin: 0;
@@ -75,7 +75,6 @@ body {
 
 
 /* HEADING */
-
 .heading-ellehacks {
     position: absolute;
     width: 70vw;
@@ -103,7 +102,6 @@ body {
 
 
 /*TAGLINE*/
-
 #tagline {
     font-size: 1.56vw;
     margin-top: 5vh;
@@ -127,7 +125,6 @@ body {
 
 
 /* COUNTDOWN*/
-
 #countdown {
     position: relative;
     width: 290px;
@@ -158,7 +155,6 @@ body {
 
 
 /* SOCIAL MEDIA ICONS */
-
 .social-icons {
     width: 100%;
     line-height: 120px;
@@ -172,7 +168,8 @@ body {
 }
 
 
-/*ABOUT US SECTION*/
+/* ***************************************************************** */
+/* ABOUT-US section starts here*/
 
 .about-us {
     padding-top: 27vh;
@@ -230,6 +227,9 @@ body {
     color: #000000;
 }
 
+
+/* ***************************************************************** */
+/* TEAM section starts here*/
 .meet-heading {
     font-size: 78px;
     text-align: center;
@@ -264,7 +264,6 @@ a {
 
 
 /*flex properties*/
-
 .grid {
     display: flex;
     margin: 0 auto;
@@ -328,7 +327,6 @@ a {
 
 
 /* Images */
-
 a {
     text-decoration: none;
 }
@@ -370,7 +368,6 @@ a {
 
 
 /* Name and title */
-
 .team-name {
     color: black;
     font-style: normal;
@@ -396,8 +393,8 @@ a {
 }
 
 
-/*JOIN US*/
-
+/* ***************************************************************** */
+/* JOIN US section starts here*/
 .join-heading {
     font-size: 78px;
     text-align: center;
@@ -498,7 +495,7 @@ a {
 
 .schedule-block .col-sm {
     border: solid 5px;
-    /*margin: 1%;*/
+    margin: 0.3%;
 }
 .schedule-block .day {
     font-size: 150%;
@@ -535,15 +532,12 @@ table, th, td {
     }
 }
 
-/* SCHEDULE section ends here */
-/* ******************************************** */
-
-
+/* ***************************************************************** */
+/* FAQ section starts here*/
 
 /* @Luana @Hasti
   FAQ page
 */
-
 .FAQ {
     width: 100%;
     margin: 0 auto;
@@ -555,7 +549,6 @@ table, th, td {
 /* @Luana 
   big h1 in with "FAQ" written;
 */
-
 #FAQ-section {
     text-align: center;
     width: 100%;
@@ -583,7 +576,6 @@ table, th, td {
 /* @Luana 
   two sides of the faq
 */
-
 #column-quest {
     float: left;
     width: 40%;
@@ -606,7 +598,6 @@ table, th, td {
 /* @Luana 
   horizontal grey line
 */
-
 .accordion-header hr {
     border: solid #8872AB 2px;
     opacity: 0.5;
@@ -621,7 +612,6 @@ table, th, td {
   summary = questions from the faq
   formating bellow
 */
-
 .accordion-header {
     font-family: 'DM Sans';
     font-style: normal;
@@ -652,7 +642,6 @@ table, th, td {
   details = ans from the faq
   formating bellow
 */
-
 #quest-box.container {
     box-shadow: 0 0 20px #ffffff;
     font-family: 'DM Sans';
@@ -683,7 +672,6 @@ table, th, td {
 /* @Luana 
   add + and - animation
 */
-
 .accordion-header::before {
     content: "+";
     color: #8872AB;
@@ -701,13 +689,8 @@ table, th, td {
 }
 
 
-/* FAQ section ends */
-
-
-/* ******************************************** */
-
-
-/* Sponsor section starts */
+/* ***************************************************************** */
+/* SPONSOR section starts here*/
 
 #sponsors {
     position: relative;
