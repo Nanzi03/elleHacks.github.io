@@ -513,7 +513,9 @@ a {
 }
 
 table, th, td {
-  border: 1px solid #D6C0FA;
+    /*border: 1px solid #E5D5FF;*/
+    /*border: 1px solid #D6C0FA;*/
+    border: 1px solid #E9E1F5;
 }
 
 @media (min-width: 1041px) {
