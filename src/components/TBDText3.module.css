@@ -1,0 +1,6 @@
+.tbd {
+  font-size: var(--font-size-16xl);
+  font-family: var(--font-space-grotesk);
+  color: var(--color-gray);
+  text-align: center;
+}

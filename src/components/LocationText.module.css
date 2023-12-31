@@ -1,0 +1,9 @@
+.location {
+  font-size: 40px;
+  display: inline-block;
+  font-family: var(--font-space-grotesk);
+  color: var(--color-white);
+  text-align: center;
+  width: 310px;
+  height: 109px;
+}

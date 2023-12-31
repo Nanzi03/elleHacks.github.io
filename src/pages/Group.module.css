@@ -1,0 +1,17 @@
+.simplificationIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 109px;
+  height: 109px;
+  overflow: hidden;
+  object-fit: cover;
+  transform: rotate(7.64deg);
+}
+.simplificationParent {
+  position: relative;
+  width: 100%;
+  height: 109px;
+  transform: rotate(-7.64deg);
+  transform-origin: 0 0;
+}

@@ -1,0 +1,14 @@
+.googleMapsImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  width: 265px;
+  height: 205px;
+  object-fit: cover;
+}
+.frame {
+  position: relative;
+  width: 100%;
+  height: 205px;
+}

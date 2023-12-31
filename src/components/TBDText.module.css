@@ -1,0 +1,9 @@
+.tbd {
+  font-size: 20px;
+  font-family: var(--font-space-grotesk);
+  color: var(--color-gray);
+  text-align: left;
+  display: inline-block;
+  width: 437.7px;
+  height: 61.5px;
+}
